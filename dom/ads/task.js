@@ -12,6 +12,7 @@ function interval(parags) {
 			parags[i].style.color = color;
 		}
 		index++;
+		console.log(index);
 		index >= parags.length ? index = 0 : void 0;
 	}, 1000);
 }
